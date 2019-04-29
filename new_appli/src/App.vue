@@ -1,38 +1,32 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <SuppliersList msg="Liste des fournisseurs"/>
+    <router-link to="/supplist">Go to list</router-link>
+    <router-link to="/suppmap">Go to map</router-link>
+    <router-link to="/supp">Go to supplier</router-link>
+
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import SuppliersList from './components/SuppliersList.vue'
-import SuppliersMap from './components/SuppliersMap.vue'
-
 export default {
-  name: 'app',
-  components: {
-    HelloWorld,
-    SuppliersList,
-    
-  },
+  name: "app",
+  components: {},
   methods: {
-    onSuppliersListClick(){
+    onSuppliersListClick() {
       window.alert("User click on");
     },
-    onMapClick(){
+    onMapClick() {
       window.alert("User click on");
     }
   }
-}
-
+};
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

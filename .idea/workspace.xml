@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0eccf1a-409c-4f8c-b346-0a9dcb1b7dd9" name="Default Changelist" comment="" />
+    <list default="true" id="e0eccf1a-409c-4f8c-b346-0a9dcb1b7dd9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_appli/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_appli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_appli/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_appli/src/components/SuppliersList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/components/SuppliersList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_appli/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/main.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,18 +88,18 @@
       <updated>1556523109456</updated>
       <workItem from="1556523110713" duration="641000" />
       <workItem from="1556524559702" duration="274000" />
-      <workItem from="1556525329559" duration="3372000" />
+      <workItem from="1556525329559" duration="9660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4287000" />
+    <option name="totallyTimeSpent" value="10575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -105,7 +112,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.07367281" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.07367281" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
