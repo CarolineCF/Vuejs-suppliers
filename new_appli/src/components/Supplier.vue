@@ -1,8 +1,8 @@
 <template>
 <div>
-    <h1>Fournisseur {{name}}</h1>
-    <h3></h3>
-    <h5></h5>
+    <h2>Fournisseur {{name}}</h2>
+    <h3>A du stock ?</h3>
+    <h5>Date de dernière releve des stocks</h5>
 </div>
 
 </template>
@@ -10,11 +10,10 @@
 
 <script>
 export default {
+    
     data(){
         return{
-          name: 'Jean Claude',
-    status: false, // est ce qu'il y a du stock 
-    checkedAt: new Date() // date de la dernière mise à jour du stock   
+          
         }
     }
    
