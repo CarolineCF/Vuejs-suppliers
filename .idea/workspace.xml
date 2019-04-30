@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0eccf1a-409c-4f8c-b346-0a9dcb1b7dd9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_appli/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_appli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_appli/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_appli/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_appli/src/components/Supplier.vue" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/components/Supplier.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_appli/src/components/SuppliersList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/components/SuppliersList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_appli/src/components/SuppliersMap.vue" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/components/SuppliersMap.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_appli/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,12 +91,12 @@
       <workItem from="1556523110713" duration="641000" />
       <workItem from="1556524559702" duration="274000" />
       <workItem from="1556525329559" duration="12744000" />
-      <workItem from="1556608309564" duration="5426000" />
+      <workItem from="1556608309564" duration="7403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19085000" />
+    <option name="totallyTimeSpent" value="21062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />

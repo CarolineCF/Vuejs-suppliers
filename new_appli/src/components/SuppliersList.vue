@@ -30,6 +30,18 @@ export default {
           name: "Marcel",
           status: false,
           checkedAt: format(Date.now() - 11 * 1000 * 60 * 60)
+        },
+          {
+          id: 3,
+          name: "Tantine valosh",
+         status: true,
+          checkedAt: format(Date.now() - 11 * 1000 * 60 * 60)
+        },
+          {
+          id: 4,
+          name: "Nanard",
+         status: false,
+          checkedAt: format(Date.now() - 11 * 1000 * 60 * 60)
         }
       ]
     };
