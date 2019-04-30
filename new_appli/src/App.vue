@@ -1,15 +1,13 @@
 <template>
   <div id="app" class="container">
     <div>
-      <img alt="Vue logo" src="./assets/spiruline-bio.jpg">
+      <img class="img-fluid" alt="Vue logo" src="./assets/capsverde.png">
     </div>
     <div class="row">
       <div class="mx-auto">
-        <router-link to="/supplist" class="btn btn-info">Go to list</router-link>
+        <router-link to="/supplist" class="btn btn-info">LIST OF PROVIDERS</router-link>
 
-        <router-link to="/suppmap" class="btn btn-info">Go to map</router-link>
-
-        <router-link to="/supp" class="btn btn-info">Go to supplier</router-link>
+        <router-link to="/suppmap" class="btn btn-info">MAP</router-link>
       </div>
     </div>
 

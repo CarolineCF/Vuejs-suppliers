@@ -12,7 +12,7 @@
 
 <script>
 import Supplier from "./Supplier.vue";
-import { format, render, cancel, register } from 'timeago.js';
+import { format, render, cancel, register } from "timeago.js";
 export default {
   name: "SuppliersList",
   components: { Supplier },
@@ -22,25 +22,29 @@ export default {
         {
           id: 1,
           name: "Jean Claude",
-         status: true,
-          checkedAt: format(Date.now() - 11 * 1000 * 60 * 60)
+          status: true,
+          checkedAt: format(Date.now() - 10* 1000 * 60 * 60),
+          latitude: 10,
+          longitude: 10
         },
         {
           id: 2,
           name: "Marcel",
           status: false,
-          checkedAt: format(Date.now() - 11 * 1000 * 60 * 60)
+          checkedAt: format(Date.now() - 24 * 2000 * 60 * 60),
+          latitude: 11,
+          longitude: 9.6
         },
-          {
+        {
           id: 3,
           name: "Tantine valosh",
-         status: true,
-          checkedAt: format(Date.now() - 11 * 1000 * 60 * 60)
+          status: true,
+          checkedAt: format(Date.now() - 1 * 1000 * 60 * 60)
         },
-          {
+        {
           id: 4,
           name: "Nanard",
-         status: false,
+          status: false,
           checkedAt: format(Date.now() - 11 * 1000 * 60 * 60)
         }
       ]
