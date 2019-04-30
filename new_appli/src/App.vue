@@ -1,9 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <router-link to="/supplist">Go to list</router-link>
-    <router-link to="/suppmap">Go to map</router-link>
-    <router-link to="/supp">Go to supplier</router-link>
+    <div>
+    <img alt="Vue logo" src="./assets/spiruline-bio.jpg">
+    </div>
+    <div>
+    <router-link to="/supplist" class="btn btn-info">Go to list</router-link>
+    </div>
+    <div>
+    <router-link to="/suppmap" class="btn btn-info">Go to map</router-link>
+  </div>
+    <div>    
+    <router-link to="/supp" class="btn btn-info">Go to supplier</router-link>
+    </div>
     
 
     <router-view></router-view>
@@ -11,21 +19,18 @@
 </template>
 
 <script>
+
+
 export default {
   name: "app",
   components: {},
-  methods: {
-    onSuppliersListClick() {
-      window.alert("User click on");
-    },
-    onMapClick() {
-      window.alert("User click on");
-    }
-  }
+  
+
 };
 </script>
 
 <style>
+
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -33,5 +38,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+ 
 }
 </style>
