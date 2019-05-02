@@ -23,15 +23,13 @@ export default {
           id: 1,
           name: "Jean Claude",
           status: true,
-          checkedAt: format(Date.now() - 10* 1000 * 60 * 60),
-        
+          checkedAt: format(Date.now() - 10 * 1000 * 60 * 60)
         },
         {
           id: 2,
           name: "Marcel",
           status: false,
-          checkedAt: format(Date.now() - 24 * 2000 * 60 * 60),
-       
+          checkedAt: format(Date.now() - 24 * 2000 * 60 * 60)
         },
         {
           id: 3,

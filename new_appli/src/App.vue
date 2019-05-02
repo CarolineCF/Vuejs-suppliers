@@ -5,9 +5,9 @@
     </div>
     <div class="row">
       <div class="mx-auto">
-        <router-link to="/supplist" class="btn btn-info">LIST OF PROVIDERS</router-link>
+        <router-link to="/supplist" class="btn btn-info mr-2">PROVIDERS</router-link> </br>
 
-        <router-link to="/suppmap" class="btn btn-info">MAP</router-link>
+        <router-link to="/suppmap" class="btn btn-info mt-2 mb-2">MAP</router-link>
       </div>
     </div>
 
