@@ -1,14 +1,14 @@
 
 <template>
-  <div class="container">
-    <h1>Carte des fournisseurs</h1>
-    <div class="row">
+  <div>
+    <div>
+    <div class="row av" >
       <div class="mx-auto">
-        <GmapMap
+        <GmapMap class="test"
           v-bind:center="{lat:45.889751, lng:6.135465}"
           :zoom="7"
           map-type-id="terrain"
-          style="width: 600px; height: 500px"
+          style="width: 1000px; height: 800px"
         >
           <GmapMarker
             v-bind:key="index"
@@ -19,6 +19,27 @@
         </GmapMap>
       </div>
     </div>
+           <vue-particles class="trans"
+        color="#dedede"
+        :particleOpacity="0.7"
+        :particlesNumber="80"
+        shapeType="circle"
+        :particleSize="4"
+        linesColor="#dedede"
+        :linesWidth="1"
+        :lineLinked="true"
+        :lineOpacity="0.4"
+        :linesDistance="150"
+        :moveSpeed="3"
+        :hoverEffect="true"
+        hoverMode="grab"
+        :clickEffect="true"
+        clickMode="repulse"
+      >
+     </vue-particles>
+     </div>
+ 
+ 
   </div>
 </template>
 
@@ -54,3 +75,16 @@ export default {
   }
 };
 </script>
+<style scoped>
+
+.av {
+  display:block;
+width: 100%;
+  z-index: 999;
+  position: absolute;
+}
+.test {
+  margin: auto;
+}
+
+</style>

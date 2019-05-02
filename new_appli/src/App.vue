@@ -1,17 +1,17 @@
-<template background="bgimage.jpg">
-  <div id="app" class="container">
-    <div>
-      <img class="img-fluid" alt="Vue logo" src="./assets/capsverde.png">
-    </div>
-    <div class="row">
-      <div class="mx-auto">
-        <router-link to="/supplist" class="btn btn-info mr-2">PROVIDERS</router-link> </br>
+<template>
+  
+  <div id="app">
+    
 
-        <router-link to="/suppmap" class="btn btn-info mt-2 mb-2">MAP</router-link>
-      </div>
-    </div>
+     
+        <router-link to="/supplist" class="btn btn-success">PROVIDERS</router-link> 
+
+        <router-link to="/suppmap" class="btn btn-success ml-2">MAP</router-link>
+  
+
 
     <router-view></router-view>
+  
   </div>
 </template>
 
@@ -23,6 +23,9 @@ export default {
 </script>
 
 <style>
+.background {
+  background: no-repeat center/100% url("./assets/background-verde.png");
+}
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

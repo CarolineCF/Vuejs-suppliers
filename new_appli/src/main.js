@@ -6,7 +6,9 @@ import routes from './router/index.js'
 import * as VueGoogleMaps from 'vue2-google-maps'
 import keyMap from '../config.js'
 import {GmapMarker} from 'vue2-google-maps/src/components/marker'
+import VueParticles from 'vue-particles'
 
+Vue.use(VueParticles)
 Vue.use(VueRouter)
 Vue.use(BootstrapVue)
 Vue.config.productionTip = false

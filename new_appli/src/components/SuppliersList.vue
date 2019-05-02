@@ -1,13 +1,39 @@
 <template>
   <div>
-    <Supplier
+    <div>
+    <div class="row av" >
+      <div class="mx-auto">
+   
+    <Supplier class="test"
       :key="supplier.id"
       v-for="supplier in suppliers"
       :name="supplier.name"
       :status="supplier.status"
       :checkedAt="supplier.checkedAt"
     ></Supplier>
+         </div>
+    </div>
+     <vue-particles class="trans"
+        color="#dedede"
+        :particleOpacity="0.7"
+        :particlesNumber="80"
+        shapeType="circle"
+        :particleSize="4"
+        linesColor="#dedede"
+        :linesWidth="1"
+        :lineLinked="true"
+        :lineOpacity="0.4"
+        :linesDistance="150"
+        :moveSpeed="3"
+        :hoverEffect="true"
+        hoverMode="grab"
+        :clickEffect="true"
+        clickMode="push"
+      >
+      </vue-particles>
   </div>
+  </div>
+  
 </template>
 
 <script>
@@ -42,9 +68,28 @@ export default {
           name: "Nanard",
           status: false,
           checkedAt: format(Date.now() - 11 * 1000 * 60 * 60)
+        },
+        {
+          id: 5,
+          name: "Tomtom",
+          status: false,
+          checkedAt: format(Date.now() - 34 * 1000 * 60 * 60)
         }
       ]
     };
   }
 };
 </script>
+<style scoped>
+
+.av {
+  display:block;
+width: 100%;
+  z-index: 999;
+  position: absolute;
+}
+.test {
+  margin: auto;
+}
+
+</style>
