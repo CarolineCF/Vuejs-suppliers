@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0eccf1a-409c-4f8c-b346-0a9dcb1b7dd9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/new_appli/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_appli/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_appli/src/components/Supplier.vue" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/components/Supplier.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_appli/src/components/SuppliersList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/components/SuppliersList.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_appli/src/components/SuppliersMap.vue" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/components/SuppliersMap.vue" afterDir="false" />
     </list>
@@ -88,17 +88,18 @@
       <workItem from="1556524559702" duration="274000" />
       <workItem from="1556525329559" duration="12744000" />
       <workItem from="1556608309564" duration="8574000" />
+      <workItem from="1556784891289" duration="697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22233000" />
+    <option name="totallyTimeSpent" value="22930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -111,7 +112,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.032502707" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.032502707" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />

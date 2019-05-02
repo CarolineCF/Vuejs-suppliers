@@ -24,16 +24,14 @@ export default {
           name: "Jean Claude",
           status: true,
           checkedAt: format(Date.now() - 10* 1000 * 60 * 60),
-          latitude: 10,
-          longitude: 10
+        
         },
         {
           id: 2,
           name: "Marcel",
           status: false,
           checkedAt: format(Date.now() - 24 * 2000 * 60 * 60),
-          latitude: 11,
-          longitude: 9.6
+       
         },
         {
           id: 3,

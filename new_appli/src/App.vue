@@ -1,4 +1,4 @@
-<template>
+<template background="bgimage.jpg">
   <div id="app" class="container">
     <div>
       <img class="img-fluid" alt="Vue logo" src="./assets/capsverde.png">
