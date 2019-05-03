@@ -1,19 +1,20 @@
 <template>
   <div>
     <div>
-    <div class="row av" >
-      <div class="mx-auto">
-   
-    <Supplier class="test"
-      :key="supplier.id"
-      v-for="supplier in suppliers"
-      :name="supplier.name"
-      :status="supplier.status"
-      :checkedAt="supplier.checkedAt"
-    ></Supplier>
-         </div>
-    </div>
-     <vue-particles class="trans"
+      <div class="row av">
+        <div class="mx-auto">
+          <Supplier
+            class="test"
+            :key="supplier.id"
+            v-for="supplier in suppliers"
+            :name="supplier.name"
+            :status="supplier.status"
+            :checkedAt="supplier.checkedAt"
+          ></Supplier>
+        </div>
+      </div>
+      <vue-particles
+        class="trans"
         color="#dedede"
         :particleOpacity="0.7"
         :particlesNumber="80"
@@ -29,14 +30,24 @@
         hoverMode="grab"
         :clickEffect="true"
         clickMode="push"
-      >
-      </vue-particles>
+      ></vue-particles>
+    </div>
   </div>
-  </div>
-  
 </template>
 
 <script>
+
+const axios = require("axios");
+
+axios({
+  method:'get',
+  url:'https://api-suppliers.herokuapp.com/api/suppliers',
+
+})
+  .then(function(response) {
+ console.log(response.data)
+});
+
 import Supplier from "./Supplier.vue";
 import { format, render, cancel, register } from "timeago.js";
 export default {
@@ -45,6 +56,7 @@ export default {
   data: function() {
     return {
       suppliers: [
+        /*
         {
           id: 1,
           name: "Jean Claude",
@@ -74,22 +86,22 @@ export default {
           name: "Tomtom",
           status: false,
           checkedAt: format(Date.now() - 34 * 1000 * 60 * 60)
-        }
-      ]
+        }*/
+      ],
+      loading: false,
+      error: null
     };
   }
 };
 </script>
 <style scoped>
-
 .av {
-  display:block;
-width: 100%;
+  display: block;
+  width: 100%;
   z-index: 999;
   position: absolute;
 }
 .test {
   margin: auto;
 }
-
 </style>

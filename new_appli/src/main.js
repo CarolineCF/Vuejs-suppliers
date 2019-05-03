@@ -19,7 +19,7 @@ const router = new VueRouter({
 
 Vue.use(VueGoogleMaps, {
   load: {
-    key: keyMap
+    key: keyMap 
     //libraries: 'places', // This is required if you use the Autocomplete plugin
     // OR: libraries: 'places,drawing'
     // OR: libraries: 'places,drawing,visualization'
@@ -48,3 +48,4 @@ new Vue({
   router,
   render: h => h(App),
 }).$mount('#app') 
+

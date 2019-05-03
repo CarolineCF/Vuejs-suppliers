@@ -21,7 +21,7 @@
     </div>
            <vue-particles class="trans"
         color="#dedede"
-        :particleOpacity="0.7"
+        :particleOpacity="0.9"
         :particlesNumber="80"
         shapeType="circle"
         :particleSize="4"
@@ -34,7 +34,7 @@
         :hoverEffect="true"
         hoverMode="grab"
         :clickEffect="true"
-        clickMode="repulse"
+        clickMode="push"
       >
      </vue-particles>
      </div>
