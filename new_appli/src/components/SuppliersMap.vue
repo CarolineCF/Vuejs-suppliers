@@ -44,12 +44,19 @@
 </template>
 
 <script>
+
+
+
+
+
+
 export default {
   name: "SuppliersMap",
   props: {},
   data: function() {
     return {
       suppliers: [
+        
         {
           id: 1,
           latitude: 45.7578137,

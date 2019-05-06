@@ -13,6 +13,7 @@
           ></Supplier>
         </div>
       </div>
+
       <vue-particles
         class="trans"
         color="#dedede"
@@ -36,61 +37,27 @@
 </template>
 
 <script>
-
-const axios = require("axios");
-
-axios({
-  method:'get',
-  url:'https://api-suppliers.herokuapp.com/api/suppliers',
-
-})
-  .then(function(response) {
- console.log(response.data)
-});
+import axios from "axios";
 
 import Supplier from "./Supplier.vue";
 import { format, render, cancel, register } from "timeago.js";
+
 export default {
   name: "SuppliersList",
   components: { Supplier },
   data: function() {
     return {
-      suppliers: [
-        /*
-        {
-          id: 1,
-          name: "Jean Claude",
-          status: true,
-          checkedAt: format(Date.now() - 10 * 1000 * 60 * 60)
-        },
-        {
-          id: 2,
-          name: "Marcel",
-          status: false,
-          checkedAt: format(Date.now() - 24 * 2000 * 60 * 60)
-        },
-        {
-          id: 3,
-          name: "Tantine valosh",
-          status: true,
-          checkedAt: format(Date.now() - 1 * 1000 * 60 * 60)
-        },
-        {
-          id: 4,
-          name: "Nanard",
-          status: false,
-          checkedAt: format(Date.now() - 11 * 1000 * 60 * 60)
-        },
-        {
-          id: 5,
-          name: "Tomtom",
-          status: false,
-          checkedAt: format(Date.now() - 34 * 1000 * 60 * 60)
-        }*/
-      ],
+      suppliers: [],
       loading: false,
       error: null
     };
+  },
+  mounted() {
+    axios
+      .get("https://api-suppliers.herokuapp.com/api/suppliers")
+      .then(response => {
+        this.suppliers = response.data;
+      });
   }
 };
 </script>

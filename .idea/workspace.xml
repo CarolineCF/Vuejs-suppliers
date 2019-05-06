@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e0eccf1a-409c-4f8c-b346-0a9dcb1b7dd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_appli/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_appli/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_appli/src/components/Supplier.vue" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/components/Supplier.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_appli/src/components/SuppliersList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/components/SuppliersList.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_appli/src/components/SuppliersMap.vue" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/components/SuppliersMap.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_appli/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/main.js" afterDir="false" />
@@ -27,13 +26,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ES6/begin-es6/2-functions/script.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="1593" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -91,18 +95,20 @@
       <workItem from="1556525329559" duration="12744000" />
       <workItem from="1556608309564" duration="8574000" />
       <workItem from="1556784891289" duration="8090000" />
-      <workItem from="1556867801544" duration="5678000" />
+      <workItem from="1556867801544" duration="6122000" />
+      <workItem from="1557127328462" duration="1285000" />
+      <workItem from="1557142073490" duration="652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36001000" />
+    <option name="totallyTimeSpent" value="38382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -115,7 +121,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.032502707" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.032502707" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.032502707" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -128,6 +134,9 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../ES6/begin-es6/5-import/script.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ES6/begin-es6/2-functions/script.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">

@@ -9,6 +9,7 @@
       <h5>Date de dernière releve des stocks: {{checkedAt}}</h5>
     </div>
   </div>
+  
   </div>
 </template>
 
