@@ -24,7 +24,7 @@ export default {
 
 <style>
 .background {
-  background:  center/100% url("./assets/background-verde.png");
+  background: repeat, center/100% url("./assets/background-verde.png");
 }
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;

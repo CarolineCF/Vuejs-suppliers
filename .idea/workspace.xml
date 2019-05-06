@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e0eccf1a-409c-4f8c-b346-0a9dcb1b7dd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_appli/src/components/Supplier.vue" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/components/Supplier.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_appli/src/components/SuppliersList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/components/SuppliersList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_appli/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_appli/src/components/SuppliersMap.vue" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/components/SuppliersMap.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_appli/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/new_appli/src/main.js" afterDir="false" />
     </list>
@@ -24,11 +23,6 @@
               <second_editor />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ES6/begin-es6/2-functions/script.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -97,12 +91,12 @@
       <workItem from="1556784891289" duration="8090000" />
       <workItem from="1556867801544" duration="6122000" />
       <workItem from="1557127328462" duration="1285000" />
-      <workItem from="1557142073490" duration="652000" />
+      <workItem from="1557142073490" duration="3182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38382000" />
+    <option name="totallyTimeSpent" value="40912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />

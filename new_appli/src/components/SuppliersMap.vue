@@ -13,7 +13,7 @@
           <GmapMarker
             v-bind:key="index"
             v-for="(m, index) in suppliers"
-            v-bind:position="{lat:m.latitude, lng: m.longitude}"
+            v-bind:position="{lat: parseFloat(m.latitude), lng: parseFloat(m.longitude)}"
             v-bind:clickable="true"
           ></GmapMarker>
         </GmapMap>
@@ -48,37 +48,24 @@
 
 
 
-
+import axios from "axios";
 
 export default {
   name: "SuppliersMap",
-  props: {},
+
   data: function() {
     return {
-      suppliers: [
-        
-        {
-          id: 1,
-          latitude: 45.7578137,
-          longitude: 4.8320114
-        },
-        {
-          id: 2,
-          latitude: 48.8566101,
-          longitude: 2.3514992
-        },
-        {
-          id: 1,
-          latitude: 10.506098,
-          longitude: -66.9146017
-        },
-        {
-          id: 2,
-          latitude: 45.889751,
-          longitude: 6.135465
-        }
-      ]
+      suppliers: [],
+      loading: false,
+      error: null
     };
+  },
+  mounted() {
+    axios
+      .get("https://api-suppliers.herokuapp.com/api/suppliers")
+      .then(response => {
+        this.suppliers = response.data;
+      });
   }
 };
 </script>
