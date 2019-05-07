@@ -1,13 +1,13 @@
 <template>
   
-  <div>
+  <div id="app">
     
 
-     
-        <router-link to="/supplist" class="btn btn-success">PROVIDERS</router-link> 
+     <div class="mb-3">
+        <router-link to="/supplist" class="btn btn-funky-moon mr-2">PROVIDERS</router-link> 
 
-        <router-link to="/suppmap" class="btn btn-success ml-2">MAP</router-link>
-  
+        <router-link to="/suppmap" class="btn btn-funky-moon">MAP</router-link>
+     </div>
 
 
     <router-view></router-view>
@@ -32,6 +32,14 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+ 
 }
+.btn-funky-moon {
+    background: #A770EF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    border: 3px solid #eee;
+}
+
 </style>

@@ -74,7 +74,7 @@ export default {
 .av {
   display:block;
 width: 100%;
-  z-index: 999;
+  z-index: 500;
   position: absolute;
 }
 .test {
