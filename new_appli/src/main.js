@@ -7,6 +7,8 @@ import * as VueGoogleMaps from 'vue2-google-maps'
 import keyMap from '../config.js'
 import {GmapMarker} from 'vue2-google-maps/src/components/marker'
 import VueParticles from 'vue-particles'
+import { store } from "./store.js"
+
 
 Vue.use(VueParticles)
 Vue.use(VueRouter)
@@ -46,6 +48,7 @@ Vue.component('GmapMarker', GmapMarker)
 
 new Vue({
   router,
+  store,
   render: h => h(App),
 }).$mount('#app') 
 
